@@ -121,9 +121,6 @@ function __BufferReadConfigJSONStruct(_buffer, _bufferSize)
         }
         else if (_byte == ord("}"))
         {
-            //Handle empty structs
-            if (array_length(_result) <= 0) array_push(_result, {});
-            
             return _result;
         }
         else if ((_byte == ord(":")) || (_byte == ord(",")))
