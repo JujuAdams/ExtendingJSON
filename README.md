@@ -1,12 +1,18 @@
 <h1 align="center">Extending JSON</h1>
 
-<p align="center">Human-writeable JSON-like data formats for GameMaker LTS 2022</p>
+<p align="center">Human-writeable JSON-like data formats for GameMaker LTS 2022.</p>
+
+<p align="center"><i>You may also be interested in <a href="https://github.com/JujuAdams/SNAP">SNAP</a>, a standard data format and struct/array utility toolkit.</i></p>
+
+&nbsp;
+
+This library focuses on a couple JSON-like formats that are designed to be maximally human-writeable. JSON is a great format, I love it, but it is a format that is more easily written and read by a computer than a human. This makes JSON unhelpful for situations where a human is likely to want to modify the data.
 
 &nbsp;
 
 ## Loose JSON
 
-"Loose JSON" is a custom JSON-like format developed for use in configuration files. Loose JSON stands somewhere between [JSON](json) and [YAML](yaml) and attempts to combine the familiarity of the former with the writing convenience of the latter.
+Loose JSON is as it sounds - a looser form of JSON. It stands somewhere between [JSON](json) and [YAML](yaml) and attempts to combine the familiarity of the former with the writing convenience of the latter.
 
 Loose JSON focuses on being easy to write. It dispenses with commas and double quotes where they are not needed. Loose JSON can also contain single-line and multi-line comments. Any standard JSON is automatically parseable as Loose JSON, but Loose JSON isn't typically parseable as standard JSON.
 
@@ -49,10 +55,7 @@ Strings can further contain escaped characters.
 
 ## Config JSON
 
-"Config JSON" is custom JSON-like loose format, and is even less strict than "Loose JSON".
-
-Config JSON focuses on being easy to write. It dispenses with commas and double quotes where they are not needed. Config JSON can also contain single-line and multi-line comments (they are ignored on load).
-It allows to use duplicated keys (data either is just replaced in case of integers and string, or merged in case of arrays and structs).
+Config JSON is an extension to the previously described Loose JSON but is even less strict. It allows for data to be defined and overwritten, something that is usually forbidden in standard JSON (including "loose JSON" above). In the case of integers and strings, values are overwritten. Structs and arrays, however, are merged together where possible.
 
 ```
 {
