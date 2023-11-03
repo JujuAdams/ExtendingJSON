@@ -6,7 +6,7 @@
 
 &nbsp;
 
-Thanks to @gnysek for the support!
+Thanks to [@gnysek](https://github.com/gnysek) for the support!
 
 This library focuses on a couple JSON-like formats that are designed to be maximally human-writeable. JSON is a great format, I love it, but it is a format that is more easily written and read by a computer than a human. This makes JSON unhelpful for situations where a human is likely to want to modify the data.
 
