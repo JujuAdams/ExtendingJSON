@@ -14,7 +14,7 @@ This library focuses on a couple JSON-like formats that are designed to be maxim
 
 ## Loose JSON
 
-Loose JSON is as it sounds - a looser form of JSON. It stands somewhere between JSON] and YAML and attempts to combine the familiarity of the former with the writing convenience of the latter.
+Loose JSON is as it sounds - a looser form of JSON. It stands somewhere between JSON and YAML and attempts to combine the familiarity of the former with the writing convenience of the latter.
 
 Loose JSON focuses on being easy to write. It dispenses with commas and double quotes where they are not needed. Loose JSON can also contain single-line and multi-line comments. Any standard JSON is automatically parseable as Loose JSON, but Loose JSON isn't typically parseable as standard JSON.
 
