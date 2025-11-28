@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SnapVisualize",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "ExtendingJSON",
-    "path": "ExtendingJSON.yyp",
+  "$GMScript":"v1",
+  "%Name":"SnapVisualize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SnapVisualize",
+  "parent":{
+    "name":"ExtendingJSON",
+    "path":"ExtendingJSON.yyp",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "LooseJSONRead",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Loose JSON",
-    "path": "folders/Loose JSON.yy",
+  "$GMScript":"v1",
+  "%Name":"LooseJSONRead",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LooseJSONRead",
+  "parent":{
+    "name":"Loose JSON",
+    "path":"folders/Loose JSON.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

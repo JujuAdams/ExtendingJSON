@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ConfigJSONBufferRead",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Config JSON",
-    "path": "folders/Config JSON.yy",
+  "$GMScript":"v1",
+  "%Name":"ConfigJSONBufferRead",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ConfigJSONBufferRead",
+  "parent":{
+    "name":"Config JSON",
+    "path":"folders/Config JSON.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

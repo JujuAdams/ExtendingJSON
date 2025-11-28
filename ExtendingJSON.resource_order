@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oTestConfigJSON","order":3,"path":"objects/oTestConfigJSON/oTestConfigJSON.yy",},
+    {"name":"oTestLooseJSON","order":2,"path":"objects/oTestLooseJSON/oTestLooseJSON.yy",},
+    {"name":"rTest","order":4,"path":"rooms/rTest/rTest.yy",},
+    {"name":"ConfigJSONRead","order":1,"path":"scripts/ConfigJSONRead/ConfigJSONRead.yy",},
+    {"name":"LooseJSONBufferWrite","order":1,"path":"scripts/LooseJSONBufferWrite/LooseJSONBufferWrite.yy",},
+    {"name":"LooseJSONRead","order":2,"path":"scripts/LooseJSONRead/LooseJSONRead.yy",},
+    {"name":"LooseJSONWrite","order":3,"path":"scripts/LooseJSONWrite/LooseJSONWrite.yy",},
+    {"name":"SnapVisualize","order":6,"path":"scripts/SnapVisualize/SnapVisualize.yy",},
+  ],
+}
