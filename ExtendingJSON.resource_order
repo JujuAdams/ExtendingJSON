@@ -1,13 +1,19 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Modding JSON","order":2,"path":"folders/Modding JSON.yy",},
+    {"name":"Loose JSON","order":1,"path":"folders/Loose JSON.yy",},
+  ],
   "ResourceOrderSettings":[
-    {"name":"oTestConfigJSON","order":3,"path":"objects/oTestConfigJSON/oTestConfigJSON.yy",},
-    {"name":"oTestLooseJSON","order":2,"path":"objects/oTestLooseJSON/oTestLooseJSON.yy",},
-    {"name":"rTest","order":4,"path":"rooms/rTest/rTest.yy",},
+    {"name":"oTestConfigJSON","order":4,"path":"objects/oTestConfigJSON/oTestConfigJSON.yy",},
+    {"name":"oTestLooseJSON","order":3,"path":"objects/oTestLooseJSON/oTestLooseJSON.yy",},
+    {"name":"rTest","order":5,"path":"rooms/rTest/rTest.yy",},
     {"name":"ConfigJSONRead","order":1,"path":"scripts/ConfigJSONRead/ConfigJSONRead.yy",},
-    {"name":"LooseJSONBufferWrite","order":1,"path":"scripts/LooseJSONBufferWrite/LooseJSONBufferWrite.yy",},
-    {"name":"LooseJSONRead","order":2,"path":"scripts/LooseJSONRead/LooseJSONRead.yy",},
-    {"name":"LooseJSONWrite","order":3,"path":"scripts/LooseJSONWrite/LooseJSONWrite.yy",},
+    {"name":"LooseJSONBufferWrite","order":2,"path":"scripts/LooseJSONBufferWrite/LooseJSONBufferWrite.yy",},
+    {"name":"LooseJSONRead","order":3,"path":"scripts/LooseJSONRead/LooseJSONRead.yy",},
+    {"name":"LooseJSONWrite","order":5,"path":"scripts/LooseJSONWrite/LooseJSONWrite.yy",},
+    {"name":"ModdingJSONFunction","order":2,"path":"scripts/ModdingJSONFunction/ModdingJSONFunction.yy",},
+    {"name":"ModdingJSONRead","order":1,"path":"scripts/ModdingJSONRead/ModdingJSONRead.yy",},
+    {"name":"ModdingJSONToken","order":3,"path":"scripts/ModdingJSONToken/ModdingJSONToken.yy",},
     {"name":"SnapVisualize","order":6,"path":"scripts/SnapVisualize/SnapVisualize.yy",},
   ],
 }

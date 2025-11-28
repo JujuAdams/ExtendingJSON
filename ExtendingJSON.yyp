@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Config JSON","folderPath":"folders/Config JSON.yy","name":"Config JSON","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Modding JSON","folderPath":"folders/Modding JSON.yy","name":"Modding JSON","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Loose JSON","folderPath":"folders/Loose JSON.yy","name":"Loose JSON","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -18,7 +19,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2022.0.2.51",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"ExtendingJSON",
   "resources":[
@@ -31,6 +32,10 @@
     {"id":{"name":"LooseJSONBufferWrite","path":"scripts/LooseJSONBufferWrite/LooseJSONBufferWrite.yy",},},
     {"id":{"name":"LooseJSONRead","path":"scripts/LooseJSONRead/LooseJSONRead.yy",},},
     {"id":{"name":"LooseJSONWrite","path":"scripts/LooseJSONWrite/LooseJSONWrite.yy",},},
+    {"id":{"name":"ModdingJSONBufferRead","path":"scripts/ModdingJSONBufferRead/ModdingJSONBufferRead.yy",},},
+    {"id":{"name":"ModdingJSONFunction","path":"scripts/ModdingJSONFunction/ModdingJSONFunction.yy",},},
+    {"id":{"name":"ModdingJSONRead","path":"scripts/ModdingJSONRead/ModdingJSONRead.yy",},},
+    {"id":{"name":"ModdingJSONToken","path":"scripts/ModdingJSONToken/ModdingJSONToken.yy",},},
     {"id":{"name":"SnapVisualize","path":"scripts/SnapVisualize/SnapVisualize.yy",},},
   ],
   "resourceType":"GMProject",
